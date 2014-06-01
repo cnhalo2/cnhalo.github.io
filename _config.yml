@@ -1,15 +1,16 @@
-title:            Site Title
-description:      Describe your website here.
-disqus_shortname: 
-#Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url: http://cnhalo.com
+title: CNHALO
+subtitle: HENRY_HUANGS 要写点什么.
+author: HENRY_HUANGS
+simple_search: http://google.com/search
+description: 要写点什么.
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           HENRY_HUANGS
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  bio:            "争四狂魔的追随者 / <br/>程序猿 / <br/>一点寒芒先到，随后枪出如龙"
+  email:
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
@@ -21,30 +22,28 @@ owner:
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   google_plus:   
+  weibo: 626242034  
 
 # Background image to be tiled on all pages
 background: 
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
-
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Theme Setup
-    url: /theme-setup
-  - title: External Link
-    url: http://mademistakes.com
+  - title: 轻博客
+    url: http://onecircle.lofter.com/
+    external: true
+  - title: Gallery
+    url: http://gallery.cnhalo.com
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Shanghai
 future:      true
 highlighter: pygments
 markdown:    kramdown
+excerpt_separator: ""
+plugins: _plugins
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
@@ -66,5 +65,18 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
+# Duoshuo Comments
+duoshuo_comments: true
+duoshuo_short_name: henryhuang
+duoshuo_asides_num: 10      # 侧边栏评论显示条目数
+duoshuo_asides_avatars: 0   # 侧边栏评论是否显示头像
+duoshuo_asides_time: 0      # 侧边栏评论是否显示时间
+duoshuo_asides_title: 0     # 侧边栏评论是否显示标题
+duoshuo_asides_admin: 0     # 侧边栏评论是否显示作者评论
+duoshuo_asides_length: 18   # 侧边栏评论截取的长度
+
+
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+
+icp: 沪ICP备12046790号-1
