@@ -1,0 +1,508 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>macvim配置 &#8211; CNHALO</title>
+<meta name="description" content="要写点什么.">
+<meta name="keywords" content="macvim, vim, it">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="macvim配置">
+<meta property="og:description" content="要写点什么.">
+<meta property="og:url" content="/macvim-config/">
+<meta property="og:site_name" content="CNHALO">
+
+
+
+
+
+<link rel="canonical" href="/macvim-config/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="CNHALO Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.min.css">
+<!-- Webfonts -->
+
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">菜单</button>
+	<ul class="dl-menu">
+		<li><a href="/">首页</a></li>
+		<li>
+			<a href="#">关于</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="/images/avatar.jpg" alt="HENRY_HUANGS photo" class="author-photo">
+					<h4>HENRY_HUANGS</h4>
+					<p>争四狂魔的追随者 / <br/>程序猿 / <br/>一点寒芒先到，随后枪出如龙</p>
+				</li>
+				<li><a href="/about/">更多....</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li>
+					<a href="http://www.weibo.com/626242034"><i class="icon-tumblr"></i> Tumblr</a>
+				</li>
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">文章</a>
+			<ul class="dl-submenu">
+				<li><a href="/posts/">所有文章</a></li>
+				<li><a href="/tags/">所有标签</a></li>
+			</ul>
+		</li>
+		<li><a href="http://onecircle.lofter.com/">轻博客</a></li><li><a href="http://gallery.cnhalo.com">Gallery</a></li>
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="/macvim-config/" rel="bookmark" title="macvim配置">macvim配置</a></h1>
+        
+        <h2>August 01, 2013</h2>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>虽然我还没用，但是记下总是好的吧，这种东西网站一输如就能找到，就不放到笔记里了。</p>
+
+<!-- more -->
+
+<p><code>sh
+"设置菜单语言
+setlangmenu=zh_cn
+" =========
+" 功能函数
+" =========
+" 获取当前目录
+func GetPWD()
+returnsubstitute(getcwd(), "", "", "g")
+endf
+" =========
+" 环境配置
+" =========
+" 保留历史记录
+sethistory=400
+" 命令行于状态行
+setch=1
+setstl=\ [File]\ %F%m%r%h%y[%{&amp;fileformat},%{&amp;fileencoding}]\ %w\ \ [PWD]\ %r%{GetPWD()}%h\ %=\ [Line]\ %l,%c\ %=\ %P
+setls=2 " 始终显示状态行
+" 制表符
+settabstop=4
+setexpandtab
+setsmarttab
+setshiftwidth=4
+setsofttabstop=4
+" 状态栏显示目前所执行的指令
+setshowcmd
+" 行控制
+setlinebreak
+setnocompatible
+settextwidth=80
+setwrap
+" 行号和标尺
+setnumber
+setruler
+setrulerformat=%15(%c%V\ %p%%%)
+" 控制台响铃
+:setnoerrorbells
+:setnovisualbell
+:sett_vb= "close visual bell
+" 插入模式下使用 、
+setbackspace=indent,eol,start
+" 标签页
+settabpagemax=20
+setshowtabline=2
+" 缩进
+setautoindent
+setcindent
+setsmartindent
+" 自动重新读入
+setautoread
+" 代码折叠
+setfoldmethod=manual
+"setfoldmethod=indent
+" 自动切换到文件当前目录
+setautochdir
+"在查找时忽略大小写
+setignorecase
+setincsearch
+sethlsearch
+"显示匹配的括号
+setshowmatch
+"实现全能补全功能，需要打开文件类型检测
+"filetype plugin indent on
+"打开vim的文件类型自动检测功能
+filetype on
+"在所有模式下都允许使用鼠标，还可以是n,v,i,c等
+setmouse=a
+" 恢复上次文件打开位置
+setviminfo='10,\"100,:20,%,n~/.viminfo
+" =====================
+" 多语言环境
+"    默认为 UTF-8 编码
+" =====================
+ifhas("multi_byte")
+setencoding=utf-8
+" English messages only
+"language messages zh_CN.utf-8
+ifhas('win32')
+language english
+let&amp;termencoding=&amp;encoding
+endif
+setfencs=ucs-bom,utf-8,gbk,cp936,latin1
+setformatoptions+=mM
+setnobomb " 不使用 Unicode 签名
+ifv:lang =~? '^\(zh\)\|\(ja\)\|\(ko\)'
+setambiwidth=double
+endif
+else
+echoerr "Sorry, this version of (g)vim was not compiled with +multi_byte"
+endif
+" =========
+" 图形界面
+" =========
+ifhas('gui_running')
+" 只显示菜单
+setguioptions=mcr
+" 高亮光标所在的行
+setcursorline
+" 编辑器配色
+"colorscheme zenburn
+"colorscheme dusk
+ifhas("win32")
+" Windows 兼容配置
+source$VIMRUNTIME/mswin.vim
+" f11 最大化
+nmap :call libcallnr('fullscreen.dll', 'ToggleFullScreen', 0)
+nmap ff :call libcallnr('fullscreen.dll', 'ToggleFullScreen', 0)
+" 自动最大化窗口
+au GUIEnter * simalt ~x
+" 给 Win32 下的 gVim 窗口设置透明度
+au GUIEnter * call libcallnr("vimtweak.dll", "SetAlpha", 250)
+" 字体配置
+exec'set guifont='.iconv('Courier_New', &amp;enc, 'gbk').':h11:cANSI'
+exec'set guifontwide='.iconv('微软雅黑', &amp;enc, 'gbk').':h11'
+endif
+ifhas("unix") &amp;&amp; !has('gui_macvim')
+setguifont=Courier\ 10\ Pitch\ 11
+setguifontwide=YaHei\ Consolas\ Hybrid\ 11
+endif
+ifhas("gui_macvim")
+" MacVim 下的字体配置
+setguifont=Menlo:h12
+setguifontwide=Hei:h12
+" 半透明和窗口大小
+settransparency=2
+setlines=40 columns=110
+" 使用MacVim原生的全屏幕功能
+lets:lines=&amp;lines
+lets:columns=&amp;columns
+func! FullScreenEnter()
+setlines=999 columns=999
+setfu
+endf
+func! FullScreenLeave()
+let&amp;lines=s:lines
+let&amp;columns=s:columns
+setnofu
+endf
+func! FullScreenToggle()
+if&amp;fullscreen
+call FullScreenLeave()
+else
+call FullScreenEnter()
+endif
+endf
+" Mac 下，按 \\ 切换全屏
+nmap   :call FullScreenToggle()
+" Set input method off
+setimdisable
+" Set QuickTemplatePath
+letguickTemplatePath = $HOME.'/.vim/templates/'
+" 如果为空文件，则自动设置当前目录为桌面
+lcd ~/Desktop/
+" 自动切换到文件当前目录
+setautochdir
+" Set QuickTemplatePath
+letguickTemplatePath = $HOME.'/.vim/templates/'
+endif
+endif
+" =========
+" 插件
+" =========
+filetype plugin indent on
+" =========
+" AutoCmd
+" =========
+ifhas("autocmd")
+filetype plugin indent on
+" 括号自动补全
+func! AutoClose()
+:inoremap ( ()i
+:inoremap " ""i
+:inoremap ' ''i
+:inoremap { {}i
+:inoremap [ []i
+:inoremap } =ClosePair('}')
+:inoremap ] =ClosePair(']')
+:inoremap ) =ClosePair(')')
+endf
+func! ClosePair(char)
+ifgetline('.')[col('.') - 1] == a:char
+return"\"
+else
+returna:char
+endif
+endf
+"auto close quotation marks forPHP, Javascript, etc, file
+au FileType php,c,python,javascript exe AutoClose()
+" Auto Check Syntax
+"au BufWritePost,FileWritePost *.js,*.php call CheckSyntax(1)
+" JavaScript 语法高亮
+au FileType html,javascript letg:javascript_enable_domhtmlcss = 1
+" 给 Javascript 文件添加 Dict
+ifhas('gui_macvim') || has('unix')
+au FileType javascript setlocal dict+=~/.vim/dict/javascript.dict
+else
+au FileType javascript setlocal dict+=$VIM/vimfiles/dict/javascript.dict
+endif
+" 格式化 JavaScript 文件
+"au FileType javascript map :call g:Jsbeautify()
+au FileType javascript setomnifunc=javascriptcomplete#CompleteJS
+" 给 CSS 文件添加 Dict
+ifhas('gui_macvim') || has('unix')
+au FileType css setlocal dict+=~/.vim/dict/css.dict
+else
+au FileType css setlocal dict+=$VIM/vimfiles/dict/css.dict
+endif
+" 增加 ActionScript 语法支持
+au BufNewFile,BufRead *.as setf actionscript
+" CSS3 语法支持
+au BufRead,BufNewFile *.css setft=css syntax=css3
+" 增加 Objective-C 语法支持
+au BufNewFile,BufRead,BufEnter,WinEnter,FileType *.m,*.h setf objc
+" 将指定文件的换行符转换成 UNIX 格式
+au FileType php,javascript,html,css,python,vim,vimwiki setff=unix
+" 保存编辑状态
+au BufWinLeave * ifexpand('%') != ''&amp;&amp; &amp;buftype == ''| mkview | endif
+au BufRead     * ifexpand('%') != ''&amp;&amp; &amp;buftype == ''| silent loadview | syntax on | endif
+" 自动最大化窗口
+ifhas('gui_running')
+ifhas("win32")
+au GUIEnter * simalt ~x
+"elseif has("unix")
+"au GUIEnter * winpos 0 0
+"setlines=999 columns=999
+endif
+endif
+endif
+"acp 自动补全插件
+letg:AutoComplPop_Behavior = {
+\ 'c': [ {'command': "\\",
+\ 'pattern': ".",
+\ 'repeat': 0}
+\ ]
+\}
+" =========
+" 快捷键
+" =========
+map cal:Calendar
+letNERDTreeWinSize=22
+map ntree :NERDTree
+map nk :NERDTreeClose
+map n :NERDTreeToggle
+map cse :ColorSchemeExplorer
+" 标签相关的快捷键 Ctrl
+map tn :tabnext
+map tp :tabprevious
+map tc :tabclose
+map :tabnew
+map :tabprevious
+map :tabnext
+map :tabclose
+map :tabnext
+" 新建 XHTML 、PHP、Javascript 文件的快捷键
+nmap :NewQuickTemplateTab xhtml
+nmap :NewQuickTemplateTab php
+nmap :NewQuickTemplateTab javascript
+nmap :NewQuickTemplateTab css
+" 在文件名上按gf时，在新的tab中打开
+map gf :tabnew
+"jquery 配色
+au BufRead,BufNewFile *.js setsyntax=jquery
+" jsLint forVim
+letg:jslint_highlight_color  = '#996600'
+" 指定 jsLint 调用路径，通常不用更改
+letg:jslint_command = $HOME . '\/.vim\/jsl\/jsl'
+" 指定 jsLint 的启动参数，可以指定相应的配置文件
+letg:jslint_command_options = '-nofilelisting -nocontext -nosummary -nologo -process'
+" 返回当前时间
+func! GetTimeInfo()
+"returnstrftime('%Y-%m-%d %A %H:%M:%S')
+returnstrftime('%Y-%m-%d %H:%M:%S')
+endfunction
+" 插入模式按 Ctrl + D(ate) 插入当前时间
+imap =GetTimeInfo()
+" ==================
+" plugin list
+" ==================
+"Color Scheme Explorer
+"jsbeauty \ff
+"NERDTree
+"Calendar
+"conquer_term
+"nerd_commenter
+"setup forC and C++
+filetype plugin on
+setnocp
+</code></p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="/tags/#macvim" title="Pages tagged macvim" class="tag">macvim</a><a href="/tags/#vim" title="Pages tagged vim" class="tag">vim</a><a href="/tags/#it" title="Pages tagged it" class="tag">it</a></span>
+        <span><a href="/macvim-config/" rel="bookmark" title="macvim配置">macvim配置</a> was published on <span class="entry-date date published updated"><time datetime="2013-08-01T17:04:00+08:00">August 01, 2013</time></span></span>
+        
+        <span class="author vcard"><span class="fn"><a href="/about/" title="About HENRY_HUANGS">HENRY_HUANGS</a></span></span>
+        
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+      <!--
+      
+        <div class="read-more-header">
+          <a href="/sudden-rain/" class="read-more-btn">Read More</a>
+        </div>
+        <div class="read-more-content">
+          <h3><a href="/running/" title="跑步">跑步</a></h3>
+          <p>俗话说得好：五月不减肥，六月徒伤悲，七月徒伤悲，八月徒伤悲。。。在今年过完春节，就给自己下了今年的一个目标，减肥，减到正常体重。说到减肥，或许对于很多人来说首先想到的就是从吃下手，少吃，甚至不吃，对此我表示很荒谬，从吃这里下手，是可以达到目的，但是反弹很容易的，稍微不注...&hellip; <a href="/running/">Continue reading</a></p>
+        </div>
+      
+    -->
+      <div class="read-more-list">
+        
+          <div class="list-item">
+            <h4><a href="/shortcuts-of-eclipse-on-mac/" title="Mac下Eclipse快捷键">Mac下Eclipse快捷键</a></h4>
+            <span>Published on April 05, 2014</span>
+          </div><!-- /.list-item -->
+        
+          <div class="list-item">
+            <h4><a href="/java-object-equals/" title="JAVA对象equals的技巧">JAVA对象equals的技巧</a></h4>
+            <span>Published on December 06, 2013</span>
+          </div><!-- /.list-item -->
+        
+      </div><!-- /.read-more-list -->
+      
+
+      <!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"henryhuang"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->
+
+    </div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2014 HENRY_HUANGS. 沪ICP备12046790号-1
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+
+<link href="/assets/stylesheets/themes/image.css" rel="stylesheet" type="text/css">
+
+
+<script src="/assets/js/plugins/jquery.scrollUp.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+      $.scrollUp({
+            scrollName: 'scrollUp', // Element ID
+            scrollDistance: 300, // Distance from top/bottom before showing element (px)
+            scrollFrom: 'top', // 'top' or 'bottom'
+            scrollSpeed: 300, // Speed back to top (ms)
+            easingType: 'linear', // Scroll to top easing (see http://easings.net/)
+            animation: 'slide', // Fade, slide, none
+            animationSpeed: 200, // Animation in speed (ms)
+            scrollTrigger: false, // Set a custom triggering element. Can be an HTML string or jQuery object
+            //scrollTarget: false, // Set a custom target element for scrolling to the top
+            scrollText: '', // Text for element, can contain HTML
+            scrollTitle: false, // Set a custom <a> title if required.
+            scrollImg: false, // Set true to use image
+            activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+            zIndex: 2147483647 // Z-Index for the overlay
+      });
+    });
+
+</script>	        
+
+</body>
+</html>

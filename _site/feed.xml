@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">CNHALO</title>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2014-06-01T16:22:30+08:00</updated>
+<id>/</id>
+<author>
+  <name>HENRY_HUANGS</name>
+  <uri>/</uri>
+  <email></email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[跑步]]></title>
+ <link rel="alternate" type="text/html" href="/running/" />
+  <id>/running</id>
+  <published>2014-05-18T22:57:00+08:00</published>
+  <updated>2014-05-18T22:57:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;俗话说得好：五月不减肥，六月徒伤悲，七月徒伤悲，八月徒伤悲。。。&lt;/p&gt;
+
+&lt;p&gt;在今年过完春节，就给自己下了今年的一个目标，减肥，减到正常体重。说到减肥，或许对于很多人来说首先想到的就是从吃下手，少吃，甚至不吃，对此我表示很荒谬，从吃这里下手，是可以达到目的，但是反弹很容易的，稍微不注意就会多吃，然后就反弹，再者就没动力了。&lt;/p&gt;
+
+&lt;p&gt;但是，不从吃下手，不代表可以随便吃，要吃热量低的，每当一个东西要入口的时候，都要注意这货进嘴以后我所要付出的代价，要多跑多远？&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;一日三餐&lt;/h3&gt;
+
+&lt;p&gt;在吃这里，我给自己一日三餐基本如下：&lt;/p&gt;
+
+&lt;p&gt;```
+	早饭：首先要进肚子半瓶矿泉水（一瓶是550ml那种），然后吃苏打饼干（这货很省钱）
+	午饭：米饭（我都会对着阿姨说：少打一点），半荤一份，素菜两份（我把西红柿炒鸡蛋也算是素材）
+	晚饭：米饭（依旧少打），素菜三份，汤一份（白送的，但是我认为应该不会有什么）&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;以上我会先吃了菜，吃到一半再吃米饭，因为我想先填下肚子，这样吃到最后，我都会（或者说是象征性地）留下一点米饭，毕竟想到多个两三口饭要多跑一点路，就不爽，对此我表示对不起农民伯伯。&lt;/p&gt;
+
+&lt;p&gt;饮食要养成吃好的习惯，但饮食只是第一步，最重要的是有氧运动。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;有氧运动的定义&lt;/h3&gt;
+
+&lt;p&gt;```
+	有氧运动是指人体在氧气充分供应的情况下进行的体育锻炼。
+即在运动过程中，人体吸入的氧气与需求相等，达到生理上的平衡状态。
+简单来说，有氧运动是指任何富韵律性的运动，其运动时间较长（约15分钟或以上），
+运动强度在中等或中上的程度(最大心率之75%至85%)。&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;（待续）&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/running/&quot;&gt;跑步&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Mac下Eclipse快捷键]]></title>
+ <link rel="alternate" type="text/html" href="/shortcuts-of-eclipse-on-mac/" />
+  <id>/shortcuts-of-eclipse-on-mac</id>
+  <published>2014-04-05T21:29:00+08:00</published>
+  <updated>2014-04-05T21:29:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;实在是记不住，虽然windows下的和mac下的差不多，但是还是有那么点区别。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+Command + O：显示大纲
+Command + 1：快速修复
+Command + D：删除当前行
+Command + Option + ↓：复制当前行到下一行
+Command + Option + ↑：复制当前行到上一行
+Option + ↓：当前行和下面一行交互位置
+Option + ↑：当前行和上面一行交互位置
+Option + ←：前一个编辑的页面
+Option + →：下一个编辑的页面
+Option + Return：显示当前选择资源的属性
+Shift + Return：在当前行的下一行插入空行
+Shift + Control + Return：在当前行插入空行
+Control + Q：定位到最后编辑的地方
+Control + M：最大化当前的Edit或View（再按则最小化）
+Control + /：注释当前行，再按则取消注释
+Command + T：快速显示当前类的继承结构
+Command + W：关闭当前Editer
+Command + K：参照当前选中的Word快速定位到下一个
+Command + E：快速显示当前Editer的下拉列表（如果当前页面没有显示的用黑体表示）
+Option + /：代码助手完成一些代码的插入（俗称“智能提示”）
+Command + Shift + E：显示管理当前打开的所有的View的管理器
+Command + J：正向增量查找（按下Command + J后，你所输入的每个字母编辑器都提供快速匹配定位到某个单词，如果没有，则在Stutes Line中显示没有找到了）
+Command + Shift + J：反向增量查找
+Command + Shift + W：关闭所有打开的Editer
+Command + Shift + X：把当前选中的文本全部变为大写
+Command + Shift + Y：把当前选中的文本全部变为小写
+Command + Shift + F：格式化当前代码
+Command + Shift + P：定位到对于的匹配符（譬如{}）（从前面定位后面时，光标要在匹配符里面，后面到前面，则反之）
+Option + Command + R：重命名（尤其是变量和类的Rename效果比较明显）
+Option + Shift + M：抽取方法（这是重构里面最常用的方法之一了，尤其是对一大堆泥团代码有用）
+Option + Command + C：修改函数结构（有N个函数调用了这个方法，修改一次就搞定）
+Option + Command + L：抽取本地变量（可以直接把一些魔法数字和字符串抽取成一个变量，尤其是多处调用的时候）
+Option + Shift + F：把Class中的Local变量变为Field变量（比较实用的功能）
+Option + Command + Z：重构的后悔药（Undo）
+&lt;/code&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/shortcuts-of-eclipse-on-mac/&quot;&gt;Mac下Eclipse快捷键&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on April 05, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[JAVA对象equals的技巧]]></title>
+ <link rel="alternate" type="text/html" href="/java-object-equals/" />
+  <id>/java-object-equals</id>
+  <published>2013-12-06T21:40:00+08:00</published>
+  <updated>2013-12-06T21:40:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;section&quot;&gt;1.	测试&lt;/h3&gt;
+
+&lt;p&gt;又一次在写代码，突然想到这么个问题：java里的equals比较对象的顺序不同会有什么不同的效果？于是乎写了以下测试代码：&lt;/p&gt;
+
+&lt;p&gt;```java&lt;/p&gt;
+
+&lt;p&gt;/**
+ * cnhalo.mrhuang.equalstest.Main &lt;todo&gt;
+ *
+ * @author	huangyijie
+ * @date	2013年12月6日 下午9:33:33
+ * 
+ */
+public class Main {&lt;/todo&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public static void main(String[] args) {
+	
+	TestObject a1 = null;
+	TestObject a2 = new TestObject();
+	
+	test1(a1, a2);
+	test2(a1, a2);
+
+}
+
+public static void test1(TestObject a1, TestObject a2) {
+	
+	try {
+		System.out.println(&quot;test1:&quot; + a1.equals(a2));
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+
+}
+
+public static void test2(TestObject a1, TestObject a2) {
+
+	try {
+		System.out.println(&quot;test2:&quot; + a2.equals(a1));
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+	
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;class TestObject {&lt;/p&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;2.	分析&lt;/h3&gt;
+&lt;p&gt;在test1中抛出java.lang.NullPointerException异常，而test2打印出false，对于test2的情况，查看源码的注释可以知道：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;For any non-null reference value x, x.equals(null) should return false.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;而对于空指针异常：&lt;/p&gt;
+
+&lt;p&gt;引发空指针异常，往往是在获取对象实例地址的时候，由于获取的对象实例并不存在，因此返回的地址为null，而又没进行判断，直接使用了该对象实例（地址）引发的。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;3.	总结&lt;/h3&gt;
+
+&lt;p&gt;因此，这是一个技巧了，为了避免空指针异常，我们在对对象进行比较的时候，得把常量或者我们认为不会有null的值放在前面： “constant”.equals(“object”);&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/java-object-equals/&quot;&gt;JAVA对象equals的技巧&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on December 06, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[MAC下JDK版本的切换]]></title>
+ <link rel="alternate" type="text/html" href="/jdk-version-switch-in-mac/" />
+  <id>/jdk-version-switch-in-mac</id>
+  <published>2013-12-02T19:31:00+08:00</published>
+  <updated>2013-12-02T19:31:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;原来系统里安装的是1.6的，这是最后一个由提供的jdk，1.7开始Oracle提供mac平台的jdk了。&lt;/p&gt;
+
+&lt;p&gt;现在安装了1.7的，觉得需要进行多个版本的切换，以下是方法：&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;临时更改版本（单会话有效）&lt;/h3&gt;
+
+&lt;p&gt;首先运行：&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+/usr/libexec/java_home
+&lt;/code&gt;
+可以知道当前环境的JAVA_HOME是：&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;这是1.7的JAVA_HOME，我们可以使用 -v 标识来获取1.6的JAVA_HOME&lt;/p&gt;
+
+&lt;p&gt;```bash
+/usr/libexec/java_home -v ‘1.6*’&lt;/p&gt;
+
+&lt;p&gt;/Library/Java/JavaVirtualMachines/1.6.0_65-b14-462.jdk/Contents/Home
+```&lt;/p&gt;
+
+&lt;p&gt;然后我们可以手动地设置JAVA_HOME&lt;/p&gt;
+
+&lt;p&gt;```bash&lt;/p&gt;
+
+&lt;p&gt;export JAVA_HOME=&lt;code&gt;/usr/libexec/java_home -v '1.6*'&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;java -version&lt;/p&gt;
+
+&lt;p&gt;java version “1.6.0_65”
+Java(TM) SE Runtime Environment (build 1.6.0_65-b14-462-11M4609)
+Java HotSpot(TM) 64-Bit Server VM (build 20.65-b04-462, mixed mode)&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;所有会话生效&lt;/h3&gt;
+
+&lt;p&gt;以上只是在一个终端会话中临时设置的，如果要运用到所有的会话中，则需要在.bash_profile中写入：&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+export JAVA_HOME=`/usr/libexec/java_home -v '1.6*'`
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;然后运行&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bash
+source ~/.bash_profile
+&lt;/code&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/jdk-version-switch-in-mac/&quot;&gt;MAC下JDK版本的切换&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on December 02, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Java使用反射设置值]]></title>
+ <link rel="alternate" type="text/html" href="/java-reflect-set-value/" />
+  <id>/java-reflect-set-value</id>
+  <published>2013-11-25T17:37:00+08:00</published>
+  <updated>2013-11-25T17:37:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;今天敲代码，遇到个问题，需要实现一个方法：给一个类的成员变量设置值，数字类型的设置为0，布尔类型的设置为false，其他设置为null，变量不知道是什么类型的。&lt;/p&gt;
+
+&lt;p&gt;这里面有几个要点：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;给变量设值&lt;/li&gt;
+  &lt;li&gt;区分变量是什么类型（数字，布尔或其他）&lt;/li&gt;
+  &lt;li&gt;基本类型的处理情况&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;1. 给变量设值&lt;/h3&gt;
+
+&lt;p&gt;```java&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;java.lang.reflect.Field.set(Object obj, Object value);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;2. 区分变量是什么类型（数字，布尔或其他）&lt;/h3&gt;
+
+&lt;p&gt;```java&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Class&amp;lt;?&amp;gt; clazz = field.getType();
+
+// 判断是否是数字的, 查看java源码可以知道基本类型里面除了char和boolean，其他的都是	// java.lang。Number 的子类
+if(Number.class.isAssignableFrom(type))
+	field.set(cfg, 0);
+else if(Boolean.class.isAssignableFrom(type))
+	field.set(cfg, false);
+else
+	field.set(cfg, null);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;Class.isAssignableFrom(Class&amp;lt;?&amp;gt; cls)查看源码，得知：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;判定此 Class 对象所表示的类或接口与指定的 Class 参数所表示的类或接口是否相同，或是否是其超类或超接口。如果是则返回 true；否则返回 false。如果该 Class 表示一个基本类型，且指定的 Class 参数正是该 Class 对象，则该方法返回 true；否则返回 false。 
+
+特别地，通过身份转换或扩展引用转换，此方法能测试指定 Class 参数所表示的类型能否转换为此 Class 对象所表示的类型。有关详细信息，请参阅 Java Language Specification 的第 5.1.1 和 5.1.4 节。 
+
+
+参数：
+cls - 要检查的 Class 对象 
+返回：
+表明 cls 类型的对象能否赋予此类对象的 boolean 值 
+抛出： 
+NullPointerException - 如果指定的 Class 参数为 null。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;3. 基本类型的处理情况&lt;/h3&gt;
+
+&lt;p&gt;使用 Class.isAssignableFrom，并不能处理基本类型的情况，找来找去，并没有发现相关的方法，所以就自己写了个方法，来转换基本类型和包装类：&lt;/p&gt;
+
+&lt;p&gt;```java&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private static Class&amp;lt;?&amp;gt; getWrapperClass(Class&amp;lt;?&amp;gt; primitiveClass) {
+	if(!primitiveClass.isPrimitive())
+		return primitiveClass;
+	
+	if(primitiveClass == Boolean.TYPE)
+		return Boolean.class;
+	else if(primitiveClass == Character.TYPE)
+		return Character.class;
+	else if(primitiveClass == Byte.TYPE)
+		return Byte.class;
+	else if(primitiveClass == Short.TYPE)
+		return Short.class;
+	else if(primitiveClass == Integer.TYPE)
+		return Integer.class;
+	else if(primitiveClass == Long.TYPE)
+		return Long.class;
+	else if(primitiveClass == Float.TYPE)
+		return Float.class;
+	else if(primitiveClass == Double.TYPE)
+		return Double.class;
+	else return Void.class;
+	
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;这样，在获取到Field的类型（Field.getType()）后，可以根据Class.isPrimitive()来判断是不是基本类型，然后再使用此方法进行转换&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;4. 完整示例&lt;/h3&gt;
+
+&lt;p&gt;以上是关键点的代码，下面是具体的代码实现：&lt;/p&gt;
+
+&lt;p&gt;Config.class&lt;/p&gt;
+
+&lt;p&gt;```java&lt;/p&gt;
+
+&lt;p&gt;/**
+ * cnhalo.mrhuang.field.Config &lt;示例&gt;
+ *
+ * @author	huangyijie
+ * @date	2013年11月25日 下午3:35:57
+ * 
+ */
+public class Config {&lt;/示例&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public double doubleVar = 0.1;
+public Integer integerWrapperVar = 14;
+public String stringVar = &quot;stringVar&quot;;
+public boolean booleanVar = true;
+
+private static Config instance = null;
+
+public static Config getInstance() {
+	if(instance == null)
+		instance = new Config();
+	return instance;
+}
+
+/**
+ * Config. &amp;lt;说明&amp;gt;
+ *
+ */
+private Config() {
+}
+
+public String toString() {
+	return doubleVar + &quot;, &quot; + integerWrapperVar + &quot;, &quot; + stringVar + &quot;, &quot; + booleanVar;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;Main.class&lt;/p&gt;
+
+&lt;p&gt;```java&lt;/p&gt;
+
+&lt;p&gt;/**
+ * cnhalo.mrhuang.field.Main &lt;示例&gt;
+ *
+ * @author	huangyijie
+ * @date	2013年11月25日 下午3:35:04
+ * 
+ */
+public class Main {&lt;/示例&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/**
+ * 
+ * main: 实现的功能： &amp;lt;br&amp;gt;
+ * 
+ * 给一个类的成员变量设置值，数字类型的设置为0，布尔类型的设置为false，其他设置为null，变量不知道是什么类型的 &amp;lt;br&amp;gt;
+ *
+ * @param args
+ * @throws SecurityException
+ * @throws NoSuchFieldException
+ * @throws IllegalArgumentException
+ * @throws IllegalAccessException
+ */
+public static void main(String[] args) throws SecurityException, NoSuchFieldException, IllegalArgumentException, IllegalAccessException {
+	
+	Config cfg = Config.getInstance();
+	// 打印一下初始值
+	System.out.println(cfg);
+	
+	Field[] fields = cfg.getClass().getFields();
+	
+	for(Field field : fields) {
+		Class&amp;lt;?&amp;gt; clazz = field.getType();
+		// 如果是基本类型
+		if(clazz.isPrimitive())
+			// 转换为包装类
+			clazz = getWrapperClass(clazz);
+		// 判断为数字类型
+		if(Number.class.isAssignableFrom(clazz))
+			field.set(cfg, 0);
+		else if(Boolean.class.isAssignableFrom(clazz))
+			field.set(cfg, false);
+		else
+			field.set(cfg, null);
+	}
+	
+	// 打印一下修改后的值
+	System.out.println(cfg);
+}
+
+/**
+ * 
+ * getWrapperClass: 将基本类型转换为包装类 &amp;lt;br&amp;gt;
+ * 
+ * 我暂时找不到java中相关的方法，如果有的话可以替换，现在先自己写一个 &amp;lt;br&amp;gt;
+ *
+ * @param primitiveClass
+ * @return
+ */
+private static Class&amp;lt;?&amp;gt; getWrapperClass(Class&amp;lt;?&amp;gt; primitiveClass) {
+	if(!primitiveClass.isPrimitive())
+		return primitiveClass;
+	
+	if(primitiveClass == Boolean.TYPE)
+		return Boolean.class;
+	else if(primitiveClass == Character.TYPE)
+		return Character.class;
+	else if(primitiveClass == Byte.TYPE)
+		return Byte.class;
+	else if(primitiveClass == Short.TYPE)
+		return Short.class;
+	else if(primitiveClass == Integer.TYPE)
+		return Integer.class;
+	else if(primitiveClass == Long.TYPE)
+		return Long.class;
+	else if(primitiveClass == Float.TYPE)
+		return Float.class;
+	else if(primitiveClass == Double.TYPE)
+		return Double.class;
+	else return Void.class;
+	
+} }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;5. 相关扩展&lt;/h3&gt;
+
+&lt;h4 id=&quot;java&quot;&gt;5.1 [转]Java中判断字符串是否为数字的三种方法&lt;/h4&gt;
+
+&lt;p&gt;```java&lt;/p&gt;
+
+&lt;p&gt;// 用JAVA自带的函数
+public static boolean isNumeric(String str){
+  for (int i = str.length();–i&amp;gt;=0;){ &lt;br /&gt;
+   if (!Character.isDigit(str.charAt(i))){
+    return false;
+   }
+  }
+  return true;
+ }&lt;/p&gt;
+
+&lt;p&gt;// 用正则表达式
+public static boolean isNumeric(String str){ 
+    Pattern pattern = Pattern.compile(“[0-9]*”); 
+    return pattern.matcher(str).matches();  &lt;br /&gt;
+ } &lt;/p&gt;
+
+&lt;p&gt;// 用ascii码
+public static boolean isNumeric(String str){
+   for(int i=str.length();–i&amp;gt;=0;){
+      int chr=str.charAt(i);
+      if(chr&amp;lt;48 || chr&amp;gt;57)
+         return false;
+   }
+   return true;
+}&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/java-reflect-set-value/&quot;&gt;Java使用反射设置值&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on November 25, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[VIM对于文件字符编码的转换]]></title>
+ <link rel="alternate" type="text/html" href="/vim-encoding-convert/" />
+  <id>/vim-encoding-convert</id>
+  <published>2013-11-18T16:29:00+08:00</published>
+  <updated>2013-11-18T16:29:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;vim&quot;&gt;使用vim自己的方式&lt;/h3&gt;
+
+&lt;h4 id=&quot;fenc-enc&quot;&gt;fenc, enc&lt;/h4&gt;
+&lt;p&gt;在Vim中输入:set fenc=编码  即可将文档的编码转换为相应的编码格式,这是只需要保存文档,文档的编码就变了。&lt;/p&gt;
+
+&lt;p&gt;如果在Vim中输入:set enc=编码  即可改变Vim的显示编码,这是就可以看到文档中的乱码了,不过这是即使对文档做了修改并保存,文档仍旧以之前的文档编码保存。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+&lt;p&gt;####fileencoding
+Vim中输入:set fileencoding=编码&lt;/p&gt;
+
+&lt;h3 id=&quot;iconv&quot;&gt;使用iconv&lt;/h3&gt;
+&lt;p&gt;iconv命令用于转换指定文件的编码,默认输出到标准输出设备,亦可指定输出文件。&lt;/p&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;用法&lt;/h4&gt;
+&lt;p&gt;iconv [选项…] [文件…]&lt;/p&gt;
+
+&lt;h4 id=&quot;section-1&quot;&gt;参数&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;输入/输出格式规范：&lt;/p&gt;
+
+    &lt;p&gt;-f, –from-code=名称 原始文本编码&lt;/p&gt;
+
+    &lt;p&gt;-t, –to-code=名称 输出编码&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;信息：&lt;/p&gt;
+
+    &lt;p&gt;-l, –list 列举所有已知的字符集&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;输出控制：&lt;/p&gt;
+
+    &lt;p&gt;-c 从输出中忽略无效的字符&lt;/p&gt;
+
+    &lt;p&gt;-o, –output=FILE 输出文件&lt;/p&gt;
+
+    &lt;p&gt;-s, –silent 关闭警告&lt;/p&gt;
+
+    &lt;p&gt;–verbose 打印进度信息&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;其他：&lt;/p&gt;
+
+    &lt;p&gt;-?, –help 给出该系统求助列表&lt;/p&gt;
+
+    &lt;p&gt;–usage 给出简要的用法信息&lt;/p&gt;
+
+    &lt;p&gt;-V, –version 打印程序版本号&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;section-2&quot;&gt;示例&lt;/h4&gt;
+&lt;p&gt;iconv -f utf-8 -t gb2312 filebackupscheme.ini &amp;gt; filebackupscheme2.ini&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/vim-encoding-convert/&quot;&gt;VIM对于文件字符编码的转换&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on November 18, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Java中使用Markdown]]></title>
+ <link rel="alternate" type="text/html" href="/java-markdown-lib/" />
+  <id>/java-markdown-lib</id>
+  <published>2013-11-16T00:39:00+08:00</published>
+  <updated>2013-11-16T00:39:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;由于需要将输入的markdown内容转换成html，所以找到了这个包：&lt;a href=&quot;http://markdown.tautua.org/&quot;&gt;MarkdownPapers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Maven依赖：&lt;/p&gt;
+
+&lt;p&gt;```xml&lt;/p&gt;
+&lt;dependency&gt;
+    &lt;groupid&gt;org.tautua.markdownpapers&lt;/groupid&gt;
+    &lt;artifactid&gt;markdownpapers-core&lt;/artifactid&gt;
+    &lt;version&gt;${use latest}&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;使用起来非常简单：&lt;/p&gt;
+
+&lt;p&gt;```java 示例
+Reader in = new FileReader(“in.md”);
+Writer out = new FileWriter(“out.html”);&lt;/p&gt;
+
+&lt;p&gt;Markdown md = new Markdown();
+md.transform(in, out);
+```&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/java-markdown-lib/&quot;&gt;Java中使用Markdown&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on November 16, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[[设计模式学习笔记]观察者模式]]></title>
+ <link rel="alternate" type="text/html" href="/design-patterns-observer/" />
+  <id>/design-patterns-observer</id>
+  <published>2013-11-12T22:41:00+08:00</published>
+  <updated>2013-11-12T22:41:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;section&quot;&gt;1. 模式定义&lt;/h3&gt;
+&lt;p&gt;观察者模式（Observer Pattern）也叫做发布订阅模式（Publish/subscribe），它使一个在项目中经常使用的模式。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;2. 模式各角色&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Subject被观察者&lt;/strong&gt;：定义被观察者必须实现的职责，它必须能够动态地增加、取消观察者。它一般是抽象类或者是实现类，仅仅完成作为被观察者必须实现的职责：管理观察者并通知观察者。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Observer观察者&lt;/strong&gt;：观察者接收到消息后，即进行update（更新方法）操作，对接收到的信息进行处理。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ConcreteSubject具体的被观察者&lt;/strong&gt;：定义被观察者自己的业务逻辑，同时定义对哪些事件进行通知。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ConcreteObserver具体的观察者&lt;/strong&gt;：每个观察在接收到消息后的处理反应是不同，各个观察者有自己的处理逻辑。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;3. 模式类图&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;http://githubimg.qiniudn.com/designpatterns/patterns_observer.png&quot; alt=&quot;观察者模式类图&quot; /&gt;
+&lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;4. 通用代码&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;被观察者&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;```java
+public abstract class Subject {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// 定义一个观察者数组
+public Vector&amp;lt;Observer&amp;gt; obsVector = new Vector&amp;lt;Observer&amp;gt;();
+
+public void addObserver(Observer observer) {
+	this.obsVector.add(observer);
+}
+
+// 删除一个观察者
+public void delObserver(Observer observer) {
+	this.obsVector.remove(observer);
+}
+
+// 通知所有观察者
+public void notifyObservers() {
+	for(Observer observer : this.obsVector)
+		observer.update();
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+&lt;p&gt;```&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;具体被观察者&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;```java
+public class ConcreteSubject extends Subject {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// 具体的业务
+public void doSomething() {
+	
+	System.out.println(&quot;被观察者做点啥&quot;);
+	
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}
+```&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;观察者&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;```java
+public interface Observer {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// 更新方法
+public void update();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}
+```&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;具体观察者&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;```java
+public class ConcreteObserver implements Observer {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// 实现更新方法
+public void update() {
+	System.out.println(&quot;接收到信息，并进行处理！&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}
+```&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;场景类&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;```java
+public class Client {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public static void main(String[] args) {
+	
+	// 创建一个被观察者
+	ConcreteSubject subject = new ConcreteSubject();
+	
+	// 定义一个观察者
+	Observer observer = new ConcreteObserver();
+	
+	// 观察者观察被观察者
+	subject.addObserver(observer);
+	
+	// 观察者开始活动
+	subject.doSomething();
+	
+} } ```
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;以上摘自秦小波老师的《设计模式之禅》&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/design-patterns-observer/&quot;&gt;[设计模式学习笔记]观察者模式&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on November 12, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Tomcat打开远程调试]]></title>
+ <link rel="alternate" type="text/html" href="/tomcat-remote-debug/" />
+  <id>/tomcat-remote-debug</id>
+  <published>2013-10-29T22:59:00+08:00</published>
+  <updated>2013-10-29T22:59:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;h2 id=&quot;section&quot;&gt;配置&lt;/h2&gt;
+&lt;p&gt;###1.	Linux下
+在bin/startup.sh 或者 bin/catalina.sh 开头添加&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sh
+declare -x CATALINA_OPTS=&quot;-server -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8787&quot;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;windows&quot;&gt;2.	Windows下&lt;/h3&gt;
+&lt;p&gt;在bin/startup.bat 或者 bin/catalina.bat 开头添加&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;bat
+SET CATALINA_OPTS=-server -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8787
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;调试&lt;/h2&gt;
+
+&lt;p&gt;这样启动以后，就会监听8787端口，通过IDE进行调试，这里以Eclipse示例&lt;/p&gt;
+
+&lt;p&gt;依次打开Run –&amp;gt; Debug Configurations –&amp;gt; Remote Java Application –&amp;gt; 右键New –&amp;gt; 填写tomcat相关信息，端口就是8787&lt;/p&gt;
+
+&lt;p&gt;这样启动tomcat后，再进行Debug后就可以了。&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/tomcat-remote-debug/&quot;&gt;Tomcat打开远程调试&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on October 29, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[LESS学习]]></title>
+ <link rel="alternate" type="text/html" href="/learn-less/" />
+  <id>/learn-less</id>
+  <published>2013-08-10T14:59:00+08:00</published>
+  <updated>2013-08-10T14:59:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;今天下午没事学了一下less，发现用来写样式表真是方便。&lt;/p&gt;
+
+&lt;h3 id=&quot;less&quot;&gt;1. 什么是LESS&lt;/h3&gt;
+&lt;p&gt;LESS是一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。&lt;/p&gt;
+
+&lt;p&gt;LESS可以在多种语言、环境中使用，包括浏览器端、桌面客户端、服务端。&lt;/p&gt;
+
+&lt;p&gt;LESS的很多特性，其实对于一个有编程思想的人来看其实很简单，在这就不列举了。&lt;/p&gt;
+
+&lt;p&gt;详细的LESS学习传送门：&lt;a href=&quot;http://www.lesscss.net/article/document.html&quot;&gt;http://www.lesscss.net/article/document.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;javascript&quot;&gt;2. JavaScript求值&lt;/h3&gt;
+&lt;p&gt;最让我觉得兴奋的是，LESS可以支持JavaScript求值，想想以后写一个页面，需要由浏览器的大小来决定某个元素的大小，那是相当方便呀：&lt;/p&gt;
+
+&lt;p&gt;```css
+@divColor: black;
+@windowWidth: &lt;code&gt;document.body.clientWidth&lt;/code&gt;;
+@windowHeight: &lt;code&gt;document.body.clientHeight&lt;/code&gt;;&lt;/p&gt;
+
+&lt;p&gt;.block {
+    width: @windowWidth;
+    height: @windowHeight;
+    border: 1px @divColor solid;
+}
+```&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;3. 注意事项&lt;/h3&gt;
+&lt;p&gt;需要注意的是，less.js的引入需要放到文档的最后，否则会报错:SyntaxError: JavaScript evaluation error: ‘TypeError: document.body is null’&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/learn-less/&quot;&gt;LESS学习&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on August 10, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[JAVA中判断日期是上午还是下午]]></title>
+ <link rel="alternate" type="text/html" href="/java-date-am-or-pm/" />
+  <id>/java-date-am-or-pm</id>
+  <published>2013-08-01T17:11:00+08:00</published>
+  <updated>2013-08-01T17:11:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;code&gt;java
+GregorianCalendar cal = new GregorianCalendar();
+System.out.println((cal.get(GregorianCalendar.AM_PM) == GregorianCalendar.PM)? &quot;下午&quot; : &quot;上午&quot;);
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;当然，通过GregorianCalendar.get()还可以获取更多的信息。&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/java-date-am-or-pm/&quot;&gt;JAVA中判断日期是上午还是下午&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on August 01, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[macvim配置]]></title>
+ <link rel="alternate" type="text/html" href="/macvim-config/" />
+  <id>/macvim-config</id>
+  <published>2013-08-01T17:04:00+08:00</published>
+  <updated>2013-08-01T17:04:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;虽然我还没用，但是记下总是好的吧，这种东西网站一输如就能找到，就不放到笔记里了。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;code&gt;sh
+&quot;设置菜单语言
+setlangmenu=zh_cn
+&quot; =========
+&quot; 功能函数
+&quot; =========
+&quot; 获取当前目录
+func GetPWD()
+returnsubstitute(getcwd(), &quot;&quot;, &quot;&quot;, &quot;g&quot;)
+endf
+&quot; =========
+&quot; 环境配置
+&quot; =========
+&quot; 保留历史记录
+sethistory=400
+&quot; 命令行于状态行
+setch=1
+setstl=\ [File]\ %F%m%r%h%y[%{&amp;amp;fileformat},%{&amp;amp;fileencoding}]\ %w\ \ [PWD]\ %r%{GetPWD()}%h\ %=\ [Line]\ %l,%c\ %=\ %P
+setls=2 &quot; 始终显示状态行
+&quot; 制表符
+settabstop=4
+setexpandtab
+setsmarttab
+setshiftwidth=4
+setsofttabstop=4
+&quot; 状态栏显示目前所执行的指令
+setshowcmd
+&quot; 行控制
+setlinebreak
+setnocompatible
+settextwidth=80
+setwrap
+&quot; 行号和标尺
+setnumber
+setruler
+setrulerformat=%15(%c%V\ %p%%%)
+&quot; 控制台响铃
+:setnoerrorbells
+:setnovisualbell
+:sett_vb= &quot;close visual bell
+&quot; 插入模式下使用 、
+setbackspace=indent,eol,start
+&quot; 标签页
+settabpagemax=20
+setshowtabline=2
+&quot; 缩进
+setautoindent
+setcindent
+setsmartindent
+&quot; 自动重新读入
+setautoread
+&quot; 代码折叠
+setfoldmethod=manual
+&quot;setfoldmethod=indent
+&quot; 自动切换到文件当前目录
+setautochdir
+&quot;在查找时忽略大小写
+setignorecase
+setincsearch
+sethlsearch
+&quot;显示匹配的括号
+setshowmatch
+&quot;实现全能补全功能，需要打开文件类型检测
+&quot;filetype plugin indent on
+&quot;打开vim的文件类型自动检测功能
+filetype on
+&quot;在所有模式下都允许使用鼠标，还可以是n,v,i,c等
+setmouse=a
+&quot; 恢复上次文件打开位置
+setviminfo='10,\&quot;100,:20,%,n~/.viminfo
+&quot; =====================
+&quot; 多语言环境
+&quot;    默认为 UTF-8 编码
+&quot; =====================
+ifhas(&quot;multi_byte&quot;)
+setencoding=utf-8
+&quot; English messages only
+&quot;language messages zh_CN.utf-8
+ifhas('win32')
+language english
+let&amp;amp;termencoding=&amp;amp;encoding
+endif
+setfencs=ucs-bom,utf-8,gbk,cp936,latin1
+setformatoptions+=mM
+setnobomb &quot; 不使用 Unicode 签名
+ifv:lang =~? '^\(zh\)\|\(ja\)\|\(ko\)'
+setambiwidth=double
+endif
+else
+echoerr &quot;Sorry, this version of (g)vim was not compiled with +multi_byte&quot;
+endif
+&quot; =========
+&quot; 图形界面
+&quot; =========
+ifhas('gui_running')
+&quot; 只显示菜单
+setguioptions=mcr
+&quot; 高亮光标所在的行
+setcursorline
+&quot; 编辑器配色
+&quot;colorscheme zenburn
+&quot;colorscheme dusk
+ifhas(&quot;win32&quot;)
+&quot; Windows 兼容配置
+source$VIMRUNTIME/mswin.vim
+&quot; f11 最大化
+nmap :call libcallnr('fullscreen.dll', 'ToggleFullScreen', 0)
+nmap ff :call libcallnr('fullscreen.dll', 'ToggleFullScreen', 0)
+&quot; 自动最大化窗口
+au GUIEnter * simalt ~x
+&quot; 给 Win32 下的 gVim 窗口设置透明度
+au GUIEnter * call libcallnr(&quot;vimtweak.dll&quot;, &quot;SetAlpha&quot;, 250)
+&quot; 字体配置
+exec'set guifont='.iconv('Courier_New', &amp;amp;enc, 'gbk').':h11:cANSI'
+exec'set guifontwide='.iconv('微软雅黑', &amp;amp;enc, 'gbk').':h11'
+endif
+ifhas(&quot;unix&quot;) &amp;amp;&amp;amp; !has('gui_macvim')
+setguifont=Courier\ 10\ Pitch\ 11
+setguifontwide=YaHei\ Consolas\ Hybrid\ 11
+endif
+ifhas(&quot;gui_macvim&quot;)
+&quot; MacVim 下的字体配置
+setguifont=Menlo:h12
+setguifontwide=Hei:h12
+&quot; 半透明和窗口大小
+settransparency=2
+setlines=40 columns=110
+&quot; 使用MacVim原生的全屏幕功能
+lets:lines=&amp;amp;lines
+lets:columns=&amp;amp;columns
+func! FullScreenEnter()
+setlines=999 columns=999
+setfu
+endf
+func! FullScreenLeave()
+let&amp;amp;lines=s:lines
+let&amp;amp;columns=s:columns
+setnofu
+endf
+func! FullScreenToggle()
+if&amp;amp;fullscreen
+call FullScreenLeave()
+else
+call FullScreenEnter()
+endif
+endf
+&quot; Mac 下，按 \\ 切换全屏
+nmap   :call FullScreenToggle()
+&quot; Set input method off
+setimdisable
+&quot; Set QuickTemplatePath
+letguickTemplatePath = $HOME.'/.vim/templates/'
+&quot; 如果为空文件，则自动设置当前目录为桌面
+lcd ~/Desktop/
+&quot; 自动切换到文件当前目录
+setautochdir
+&quot; Set QuickTemplatePath
+letguickTemplatePath = $HOME.'/.vim/templates/'
+endif
+endif
+&quot; =========
+&quot; 插件
+&quot; =========
+filetype plugin indent on
+&quot; =========
+&quot; AutoCmd
+&quot; =========
+ifhas(&quot;autocmd&quot;)
+filetype plugin indent on
+&quot; 括号自动补全
+func! AutoClose()
+:inoremap ( ()i
+:inoremap &quot; &quot;&quot;i
+:inoremap ' ''i
+:inoremap { {}i
+:inoremap [ []i
+:inoremap } =ClosePair('}')
+:inoremap ] =ClosePair(']')
+:inoremap ) =ClosePair(')')
+endf
+func! ClosePair(char)
+ifgetline('.')[col('.') - 1] == a:char
+return&quot;\&quot;
+else
+returna:char
+endif
+endf
+&quot;auto close quotation marks forPHP, Javascript, etc, file
+au FileType php,c,python,javascript exe AutoClose()
+&quot; Auto Check Syntax
+&quot;au BufWritePost,FileWritePost *.js,*.php call CheckSyntax(1)
+&quot; JavaScript 语法高亮
+au FileType html,javascript letg:javascript_enable_domhtmlcss = 1
+&quot; 给 Javascript 文件添加 Dict
+ifhas('gui_macvim') || has('unix')
+au FileType javascript setlocal dict+=~/.vim/dict/javascript.dict
+else
+au FileType javascript setlocal dict+=$VIM/vimfiles/dict/javascript.dict
+endif
+&quot; 格式化 JavaScript 文件
+&quot;au FileType javascript map :call g:Jsbeautify()
+au FileType javascript setomnifunc=javascriptcomplete#CompleteJS
+&quot; 给 CSS 文件添加 Dict
+ifhas('gui_macvim') || has('unix')
+au FileType css setlocal dict+=~/.vim/dict/css.dict
+else
+au FileType css setlocal dict+=$VIM/vimfiles/dict/css.dict
+endif
+&quot; 增加 ActionScript 语法支持
+au BufNewFile,BufRead *.as setf actionscript
+&quot; CSS3 语法支持
+au BufRead,BufNewFile *.css setft=css syntax=css3
+&quot; 增加 Objective-C 语法支持
+au BufNewFile,BufRead,BufEnter,WinEnter,FileType *.m,*.h setf objc
+&quot; 将指定文件的换行符转换成 UNIX 格式
+au FileType php,javascript,html,css,python,vim,vimwiki setff=unix
+&quot; 保存编辑状态
+au BufWinLeave * ifexpand('%') != ''&amp;amp;&amp;amp; &amp;amp;buftype == ''| mkview | endif
+au BufRead     * ifexpand('%') != ''&amp;amp;&amp;amp; &amp;amp;buftype == ''| silent loadview | syntax on | endif
+&quot; 自动最大化窗口
+ifhas('gui_running')
+ifhas(&quot;win32&quot;)
+au GUIEnter * simalt ~x
+&quot;elseif has(&quot;unix&quot;)
+&quot;au GUIEnter * winpos 0 0
+&quot;setlines=999 columns=999
+endif
+endif
+endif
+&quot;acp 自动补全插件
+letg:AutoComplPop_Behavior = {
+\ 'c': [ {'command': &quot;\\&quot;,
+\ 'pattern': &quot;.&quot;,
+\ 'repeat': 0}
+\ ]
+\}
+&quot; =========
+&quot; 快捷键
+&quot; =========
+map cal:Calendar
+letNERDTreeWinSize=22
+map ntree :NERDTree
+map nk :NERDTreeClose
+map n :NERDTreeToggle
+map cse :ColorSchemeExplorer
+&quot; 标签相关的快捷键 Ctrl
+map tn :tabnext
+map tp :tabprevious
+map tc :tabclose
+map :tabnew
+map :tabprevious
+map :tabnext
+map :tabclose
+map :tabnext
+&quot; 新建 XHTML 、PHP、Javascript 文件的快捷键
+nmap :NewQuickTemplateTab xhtml
+nmap :NewQuickTemplateTab php
+nmap :NewQuickTemplateTab javascript
+nmap :NewQuickTemplateTab css
+&quot; 在文件名上按gf时，在新的tab中打开
+map gf :tabnew
+&quot;jquery 配色
+au BufRead,BufNewFile *.js setsyntax=jquery
+&quot; jsLint forVim
+letg:jslint_highlight_color  = '#996600'
+&quot; 指定 jsLint 调用路径，通常不用更改
+letg:jslint_command = $HOME . '\/.vim\/jsl\/jsl'
+&quot; 指定 jsLint 的启动参数，可以指定相应的配置文件
+letg:jslint_command_options = '-nofilelisting -nocontext -nosummary -nologo -process'
+&quot; 返回当前时间
+func! GetTimeInfo()
+&quot;returnstrftime('%Y-%m-%d %A %H:%M:%S')
+returnstrftime('%Y-%m-%d %H:%M:%S')
+endfunction
+&quot; 插入模式按 Ctrl + D(ate) 插入当前时间
+imap =GetTimeInfo()
+&quot; ==================
+&quot; plugin list
+&quot; ==================
+&quot;Color Scheme Explorer
+&quot;jsbeauty \ff
+&quot;NERDTree
+&quot;Calendar
+&quot;conquer_term
+&quot;nerd_commenter
+&quot;setup forC and C++
+filetype plugin on
+setnocp
+&lt;/code&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/macvim-config/&quot;&gt;macvim配置&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on August 01, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[怎么突然下雨了]]></title>
+ <link rel="alternate" type="text/html" href="/sudden-rain/" />
+  <id>/sudden-rain</id>
+  <published>2013-07-21T21:02:00+08:00</published>
+  <updated>2013-07-21T21:02:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;怎么就突然下雨了？前一阵来台风还只是刮风不下雨，估计现在是高温吸水太多了，该排掉再吸了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.cnhalo.com/u/78119169/images/20130721/sky.jpg&quot; alt=&quot;来台风那阵&quot; title=&quot;来台风那阵&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;说到高温，还是有点好处的，比如最近新闻关于撞伤人的新闻基本没了，因为你想想，把人“撞倒”在地上，那地面的温度看还敢躺下不。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://img.cnhalo.com/u/78119169/images/20130721/morning.jpg&quot; alt=&quot;早上&quot; title=&quot;早上&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;好久没写博客了，前一阵子着实很忙，经历了周末加班，还是来了个通宵，那种感觉就想我初一的时候人生的第一次网吧通宵，当晚和爸妈说不回家的电话还历历在目。&lt;/p&gt;
+
+&lt;p&gt;一个项目算是结束了，心里一块大石算是可以放下了，但是貌似又一个大石已经又到了心头上了？小房间搞开发还是挺安静地，不用去理会那两个电话不停地响。想想，当那丝思绪出现在脑子里的瞬间，一个电话响起那是什么感觉？&lt;/p&gt;
+
+&lt;p&gt;这两天在看一本书，吉莉安.罗宾逊的《我的小探险》，讲述的是她得一些旅行的故事。我一直觉得我有一颗对于旅行蠢蠢欲动的心，但是又不怎么喜欢爬山，所以比较向往平原海边的旅行。一直想去鼓浪屿什么的，但是不知道现在这种地方商业味会不会更重了。作为一个上班族，想要安心地旅行不是件容易的事情，正常情况下能出去的一年也就那么几天，但是全中国人大部分都和我一样，也就这几天，哎，人山人海啊，所以就一直没机会去。人挤人的旅行那真的是种折磨，没必要去耗这口，旅行的目的是让人心情变好。&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/sudden-rain/&quot;&gt;怎么突然下雨了&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on July 21, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Eclipse创建Maven的Web工程]]></title>
+ <link rel="alternate" type="text/html" href="/eclipse-maven-web-project/" />
+  <id>/eclipse-maven-web-project</id>
+  <published>2013-06-29T01:03:00+08:00</published>
+  <updated>2013-06-29T01:03:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;折腾很长时间，终于弄出可以调试的了，遇到了很多问题，但是一步一步查资料，求助，终于弄出来了。&lt;/p&gt;
+
+&lt;p&gt;首先，因为Eclipse更新到了4.3Kepler，所以一开始我就下的它来使用，结果里面的maven插件包括了m2e-wtp，这实在让人头疼。按照步骤也算是整出来了一个，但是，在使用Server打开的时候，却总是找不到类，找了很多解决方法也没不好解决，说是Server读的class的位置和项目的class位置不一样类似的原因，于是我想是不是因为m2e-wtp创建的项目会有所特殊，需要特别配置什么的，找资料也找不到解决的方法，于是就想着不要这个插件了，刚好有Juno版本的包，就重新安装了。&lt;/p&gt;
+
+&lt;p&gt;安装Juno后，是按照这个老外的方法来创建项目的，挺详细的：
+&lt;a href=&quot;http://fruzenshtein.com/setup-of-dynamic-web-project-using-maven/&quot;&gt;http://fruzenshtein.com/setup-of-dynamic-web-project-using-maven/
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;但是在直接右键通过Server打开的时候，遇到了包查不到，那是因为没有将Maven的依赖包放到WEB-INF/lib下，于是找到了下面这篇文章来解决：
+&lt;a href=&quot;http://www.micmiu.com/software/build/eclipse-maven-web-lib/&quot;&gt;http://www.micmiu.com/software/build/eclipse-maven-web-lib/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;最后遇到个问题，在需要执行jsp的时候，报无法解析jsp的错误，思前想后，找到原因：因为pom.xml里有依赖servlet和jsp，这两个虽然写的是部署的时候不加入，但是因为我直接将Maven的依赖放入lib下，这样就导致了冲突，所以就暂时也不将这两个相关的放到pom依赖里面了，最后成功解决。&lt;/p&gt;
+
+&lt;p&gt;虽然解决了，但是这毕竟不是正确地开发需要的方式，这只是小程序可以搞搞，但是在大项目有很多很多测试的时候，要解决就必须按照Maven的结构来了，那我想m2e-wtp才真正有他的优势吧。还有在原来的pom里有servlet和jsp的依赖，是为了代码里能使用到他们，但是在部署的时候是不需要的，所以采用直接不放到依赖里显然不是真正解决的方法。&lt;/p&gt;
+
+&lt;p&gt;待日后研究研究m2e-wtp。&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/eclipse-maven-web-project/&quot;&gt;Eclipse创建Maven的Web工程&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on June 29, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Python配置ini，大小写敏感]]></title>
+ <link rel="alternate" type="text/html" href="/python-ini/" />
+  <id>/python-ini</id>
+  <published>2013-06-21T22:56:00+08:00</published>
+  <updated>2013-06-21T22:56:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;ConfigParser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;string&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;CaseSensConfigParser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ConfigParser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ConfigParser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;sd&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;    override&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;    config option&amp;#39;s key case sensitive&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;    &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;optionxform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;optionstr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;optionstr&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;__main__&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;kubini&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CaseSensConfigParser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;kubini&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;cfg.ini&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;kubini&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;SessionName&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;KeyName&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;KeyValue&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;kubini&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;cfg.ini&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;w&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;/python-ini/&quot;&gt;Python配置ini，大小写敏感&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on June 21, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Wicket使用Link加JS的Confirm]]></title>
+ <link rel="alternate" type="text/html" href="/wicket-link-confirm/" />
+  <id>/wicket-link-confirm</id>
+  <published>2013-06-21T22:42:00+08:00</published>
+  <updated>2013-06-21T22:42:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;```java
+Link logoutLink = new Link(LOGOUT_ID) {
+    private static final long serialVersionUID = 1L;
+    public void onClick() {
+        getUbSession().setLogin(false);
+    }
+};
+SimpleAttributeModifier sam = new SimpleAttributeModifier(
+    “onclick”,”if(!confirm(‘确定退出？’)) return false;”);&lt;/p&gt;
+
+&lt;p&gt;logoutLink.add(sam);
+add(logoutLink);
+```&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/wicket-link-confirm/&quot;&gt;Wicket使用Link加JS的Confirm&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on June 21, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[随便说说应用的界面]]></title>
+ <link rel="alternate" type="text/html" href="/say-about-app-ui-design/" />
+  <id>/say-about-app-ui-design</id>
+  <published>2013-06-05T00:49:00+08:00</published>
+  <updated>2013-06-05T00:49:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;整天拿着手机没事，当然就是安装应用来玩玩。随着应用安装多了，总能感觉到不同公司对于应用的设计理念的不同，下面就以我个人的角度，还随便说说这些感想。&lt;/p&gt;
+
+&lt;p&gt;总的来说，我是比较喜欢网易的应用设计，而不是很喜欢腾讯的，甚至因为这一点，现在很少去用微信和手机QQ了，而新浪在我心目中就介于两者之间了。&lt;/p&gt;
+
+&lt;h1 id=&quot;android&quot;&gt;因为Android的标准&lt;/h1&gt;
+
+&lt;p&gt;我用的是魅族MX2，从一拿到手就从不后悔，不管外界对Smartbar的评价如何，我坚信这种做法是对的。我可以感受到魅族在设计的时候考虑的有多深。对于Smartbar的解释网上已经有很多文章了。&lt;/p&gt;
+
+&lt;p&gt;网易的应用现在基本是按照Android的设计来，虽然在刚开始，网易新闻还是出现两排按键，但是现在不断地更新，已经体验到Smartbar真的Smart的地方了。&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;网易新闻&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://githubimg.qiniudn.com/20130605_app_imgs/163_news.jpg&quot; alt=&quot;网易新闻&quot; title=&quot;网易新闻&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;网易音乐&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://githubimg.qiniudn.com/20130605_app_imgs/163_music.jpg&quot; alt=&quot;网易音乐&quot; title=&quot;网易音乐&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lofter&quot;&gt;Lofter&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://githubimg.qiniudn.com/20130605_app_imgs/lofter.jpg&quot; alt=&quot;Lofter&quot; title=&quot;Lofter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;对于腾讯的产品，已经很长时间了，不对的更新，但是始终还是处于两排的状态，或许可以说是因为腾讯产品的使用人群多，需要按照使用多标准去设计，但是我觉得嘛，他们就是先设计iphone的，然后安卓就不去有针对性的设计，直接搬过来了。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;微信&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://githubimg.qiniudn.com/20130605_app_imgs/wechat.jpg&quot; alt=&quot;微信&quot; title=&quot;微信&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;qq&quot;&gt;手机QQ&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://githubimg.qiniudn.com/20130605_app_imgs/phone_qq.jpg&quot; alt=&quot;手机QQ&quot; title=&quot;手机QQ&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;当然，最好的还是谷歌，谷歌的产品应该算是标准了。但是因为天朝这个原因么，所以也不是经常去使用，自然就对他们的东西感情不是很深。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;谷歌地图&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://githubimg.qiniudn.com/20130605_app_imgs/googl_map.jpg&quot; alt=&quot;谷歌地图&quot; title=&quot;谷歌地图&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;googleplus&quot;&gt;GooglePlus&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://githubimg.qiniudn.com/20130605_app_imgs/googleplus.jpg&quot; alt=&quot;GooglePlus&quot; title=&quot;GooglePlus&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;还有很多很多的应用，就不细说了。。。&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/say-about-app-ui-design/&quot;&gt;随便说说应用的界面&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on June 05, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[多浏览器支持pre固定宽度]]></title>
+ <link rel="alternate" type="text/html" href="/pre-tag-in-html-with-fixed-width/" />
+  <id>/pre-tag-in-html-with-fixed-width</id>
+  <published>2013-05-28T11:18:00+08:00</published>
+  <updated>2013-05-28T11:18:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;之前将pre设置css属性width：xpx，一直使用的chrome来测试，还没发现有问题，放到ie下就没用了，通过以下解决：&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;css
+pre {
+    white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+    white-space: -pre-wrap; /* Opera */
+    white-space: -o-pre-wrap; /* Opera */
+    white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+    word-wrap: break-word; /* IE 5.5+ */
+}
+&lt;/code&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/pre-tag-in-html-with-fixed-width/&quot;&gt;多浏览器支持pre固定宽度&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on May 28, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[跑出第一步]]></title>
+ <link rel="alternate" type="text/html" href="/running/" />
+  <id>/running</id>
+  <published>2013-05-21T22:25:00+08:00</published>
+  <updated>2013-05-21T22:25:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.xiami.com/widget/player-single?uid=0&amp;amp;sid=71131&amp;amp;mode=js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;生命在于运动。&lt;/p&gt;
+
+&lt;p&gt;夏天到了，是时候运动了，不然穿着也不好看是吧？&lt;/p&gt;
+
+&lt;p&gt;今天和室友们在住处附近的公园跑步。一直想跑步，但是总没时间，或者就没有一起跑的人，或许这就是不跑的理由。跑步是一件考验人的事情，跑一次，两次，这很简单，但是想坚持真不是件容易的事情，所以，找一些人一起跑，这很重要。&lt;/p&gt;
+
+&lt;p&gt;今天迈出第一步，跑完后流汗的感觉很享受，更享受跑完后回到家，吹着阳台的风的感觉。&lt;/p&gt;
+
+&lt;p&gt;上个周六，大学同学来上海玩，算是娱乐了一天，先唱歌，再看电影，那个享受。&lt;/p&gt;
+
+&lt;p&gt;最近看电影很频繁，这次看的是《中国合伙人》，没看前就一直想看看新东方的创业是什么样。这算是个励志电影吧，或许这就是中国以后的励志电影类型，看多了美国的励志电影，换换口味也是不错的。毕竟发生得离我们比较近的故事，我们可以产生共鸣。没错，电影中很多画面让我感慨，让我怀念校园生活。电影里让我最感触的是当beyound的《海阔天空》响起的时候，真的觉得人生就得拼一拼。&lt;/p&gt;
+
+&lt;p&gt;很巧合，看电影的时候，周杰伦正在椅子底下开演唱会。。。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://githubimg.qiniudn.com/20130518mercedes/total.jpg&quot; alt=&quot;梅赛德斯奔驰中心&quot; title=&quot;梅赛德斯奔驰中心&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/running/&quot;&gt;跑出第一步&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on May 21, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[睡前牢骚]]></title>
+ <link rel="alternate" type="text/html" href="/one-night/" />
+  <id>/one-night</id>
+  <published>2013-05-09T00:46:00+08:00</published>
+  <updated>2013-05-09T00:46:00+08:00</updated>
+  <author>
+    <name>HENRY_HUANGS</name>
+    <uri></uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;这么一睡，又要开始一天看似忙碌的生活。总觉得时间很快，不管是从大的还是小的。和一个高中同学聊天，使得今天晚上想到好多小时候在西安的事，时间真的很快，从小学，初中，高中，甚至是大学，都在西安度过，住址从刚到西安的白鹭湾，再到双仁府，到后来的火药局巷，而现在处在从来没想到过的上海。时间过得真的很快，有种想哭的感觉，最重要的时光在西安，但是现在仔细想都想不出以后有什么理由再回到西安，觉得很伤感。&lt;/p&gt;
+
+&lt;p&gt;我好想哭，最近好累，每天忙碌着，我会尽一切力量去干我愿意干的事情。只是有时候停下来想想，这样做的回报是什么？得到的真正是自己想要的吗？独自一人来到离家这么远的地方，是图的什么？但有时候又想想，我的目标是学习，学习，再学习，使自己真正有力量。只是我好想回家后能吃上可口的饭菜，上学的时候，每次回家后就能吃到我妈做的饭，自从上大学后就再也没享受过了，上大学也是很仓促得就去学校了，没想到那一刻开始，生活方式就变了，而且是再也回不去。现在好想回去，真是体验到了小时候大人说的“还是小时候好”。&lt;/p&gt;
+
+&lt;p&gt;此时此刻，听着《一个人生活》，或许更适合这一秒的气息。&lt;/p&gt;
+
+&lt;p&gt;全世界，晚安。&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/one-night/&quot;&gt;睡前牢骚&lt;/a&gt; was originally published by HENRY_HUANGS at &lt;a href=&quot;&quot;&gt;CNHALO&lt;/a&gt; on May 09, 2013.&lt;/p&gt;</content>
+</entry>
+
+</feed>

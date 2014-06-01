@@ -1,0 +1,277 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>[新手]VMware网络配置 &#8211; CNHALO</title>
+<meta name="description" content="要写点什么.">
+<meta name="keywords" content="IT, VMware, 虚拟机">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[新手]VMware网络配置">
+<meta property="og:description" content="要写点什么.">
+<meta property="og:url" content="/vmware-network-config/">
+<meta property="og:site_name" content="CNHALO">
+
+
+
+
+
+<link rel="canonical" href="/vmware-network-config/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="CNHALO Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.min.css">
+<!-- Webfonts -->
+
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">菜单</button>
+	<ul class="dl-menu">
+		<li><a href="/">首页</a></li>
+		<li>
+			<a href="#">关于</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="/images/avatar.jpg" alt="HENRY_HUANGS photo" class="author-photo">
+					<h4>HENRY_HUANGS</h4>
+					<p>争四狂魔的追随者 / <br/>程序猿 / <br/>一点寒芒先到，随后枪出如龙</p>
+				</li>
+				<li><a href="/about/">更多....</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li>
+					<a href="http://www.weibo.com/626242034"><i class="icon-tumblr"></i> Tumblr</a>
+				</li>
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">文章</a>
+			<ul class="dl-submenu">
+				<li><a href="/posts/">所有文章</a></li>
+				<li><a href="/tags/">所有标签</a></li>
+			</ul>
+		</li>
+		<li><a href="http://onecircle.lofter.com/">轻博客</a></li><li><a href="http://gallery.cnhalo.com">Gallery</a></li>
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="/vmware-network-config/" rel="bookmark" title="[新手]VMware网络配置">[新手]VMware网络配置</a></h1>
+        
+        <h2>February 20, 2013</h2>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>这个问题以前一直没专门去想过，只是网络不通了我才去折腾，实在不行就问别人，今天总算好好的去理解了一下。这篇文章能写出来，最需要感谢的是华叔。</p>
+
+<h3 id="section"><strong>首先，是对三种模式的理解：</strong></h3>
+
+<h4 id="bridged"><strong>1.Bridged（桥接模式）:</strong></h4>
+
+<blockquote>
+  <p>主机&lt;–&gt;主机所在网段&lt;–&gt;虚拟机</p>
+</blockquote>
+
+<blockquote>
+  <p>比如：主机的IP为__192.168.40.230<strong>，也就是__40网段</strong>，那么虚拟机配__192.168.40.26__就可以和主机所在的网段通信，桥接的意思可以理解为主机的网卡直接插在虚拟机上。</p>
+</blockquote>
+
+<h4 id="host-only"><strong>2.Host-only:</strong></h4>
+
+<blockquote>
+  <p>主机和虚拟机之间建立自己的通信，需配置成网络在同一网段,两个虚拟机之间配置成Host-only也可以互相通信。
+<!--more--></p>
+</blockquote>
+
+<h4 id="nat"><strong>3.NAT:</strong></h4>
+
+<blockquote>
+  <p>Used to share the host’Ip address，主机就像是路由器，主机和虚拟机可配置在一个网段，此网段可以不和外网一个网段，只要主机和虚拟机通信上，这样虚拟机就可以访问外网，但是外网无法访问虚拟机。</p>
+</blockquote>
+
+<h3 id="vmwarevirtual-network-editor"><strong>下来是VMware的Virtual Network Editor配置</strong></h3>
+
+<h4 id="section-1"><strong>1.三种类型的大概描述:</strong></h4>
+
+<p><img src="http://cnhalo.qiniudn.com/20121126/virtual_network_editor.jpg" alt="Virtual Network Editor" /></p>
+
+<p>其中__Bridged__和__NAT__必须有，而且只能是一个。</p>
+
+<p>这三种可以理解为集线器，当虚拟机里的网卡配置成相应的模式之后，就类似于将虚拟机的网卡插在集线器上了。</p>
+
+<p><br /></p>
+
+<h4 id="bridged-1"><strong>2.Bridged</strong></h4>
+
+<p>__Bridged__的__Bridged to__最好不要设置成自动:</p>
+
+<p><img src="http://cnhalo.qiniudn.com/20121126/bridged_information.jpg" alt="Bridged_to" /></p>
+
+<p><br /></p>
+
+<h4 id="nathost-only"><strong>3.NAT和Host-only</strong></h4>
+
+<p><strong>NAT__模式下，需要将虚拟机里的网关设置成__NAT Setting__里的__GatewayIP</strong>：</p>
+
+<p><img src="http://cnhalo.qiniudn.com/20121126/nat_settings.jpg" alt="Nat_settings" /></p>
+
+<p>__NAT__和__Host-only__选择后，下面的勾选框就成可编辑状态:</p>
+
+<p><img src="http://cnhalo.qiniudn.com/20121126/nat_host_only_information.jpg" alt="Nat_HostOnly" /></p>
+
+<p>__Subnet IP__配成某个网段后，虚拟机和主机只要在这个网段，在对应的模式下就可以通信了。</p>
+
+<p>勾选__Connect a host_virtual adapter to this network__后，主机就会出来虚拟网卡:</p>
+
+<p><img src="http://cnhalo.qiniudn.com/20121126/virtual_interface.jpg" alt="virtual_interface" /></p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="/tags/#IT" title="Pages tagged IT" class="tag">IT</a><a href="/tags/#VMware" title="Pages tagged VMware" class="tag">VMware</a><a href="/tags/#虚拟机" title="Pages tagged 虚拟机" class="tag">虚拟机</a></span>
+        <span><a href="/vmware-network-config/" rel="bookmark" title="[新手]VMware网络配置">[新手]VMware网络配置</a> was published on <span class="entry-date date published updated"><time datetime="2013-02-20T22:24:00+08:00">February 20, 2013</time></span></span>
+        
+        <span class="author vcard"><span class="fn"><a href="/about/" title="About HENRY_HUANGS">HENRY_HUANGS</a></span></span>
+        
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+      <!--
+      
+        <div class="read-more-header">
+          <a href="/design-patterns-singleton/" class="read-more-btn">Read More</a>
+        </div>
+        <div class="read-more-content">
+          <h3><a href="/running/" title="跑步">跑步</a></h3>
+          <p>俗话说得好：五月不减肥，六月徒伤悲，七月徒伤悲，八月徒伤悲。。。在今年过完春节，就给自己下了今年的一个目标，减肥，减到正常体重。说到减肥，或许对于很多人来说首先想到的就是从吃下手，少吃，甚至不吃，对此我表示很荒谬，从吃这里下手，是可以达到目的，但是反弹很容易的，稍微不注...&hellip; <a href="/running/">Continue reading</a></p>
+        </div>
+      
+    -->
+      <div class="read-more-list">
+        
+          <div class="list-item">
+            <h4><a href="/shortcuts-of-eclipse-on-mac/" title="Mac下Eclipse快捷键">Mac下Eclipse快捷键</a></h4>
+            <span>Published on April 05, 2014</span>
+          </div><!-- /.list-item -->
+        
+          <div class="list-item">
+            <h4><a href="/java-object-equals/" title="JAVA对象equals的技巧">JAVA对象equals的技巧</a></h4>
+            <span>Published on December 06, 2013</span>
+          </div><!-- /.list-item -->
+        
+      </div><!-- /.read-more-list -->
+      
+
+      <!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"henryhuang"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->
+
+    </div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2014 HENRY_HUANGS. 沪ICP备12046790号-1
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+
+<link href="/assets/stylesheets/themes/image.css" rel="stylesheet" type="text/css">
+
+
+<script src="/assets/js/plugins/jquery.scrollUp.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+      $.scrollUp({
+            scrollName: 'scrollUp', // Element ID
+            scrollDistance: 300, // Distance from top/bottom before showing element (px)
+            scrollFrom: 'top', // 'top' or 'bottom'
+            scrollSpeed: 300, // Speed back to top (ms)
+            easingType: 'linear', // Scroll to top easing (see http://easings.net/)
+            animation: 'slide', // Fade, slide, none
+            animationSpeed: 200, // Animation in speed (ms)
+            scrollTrigger: false, // Set a custom triggering element. Can be an HTML string or jQuery object
+            //scrollTarget: false, // Set a custom target element for scrolling to the top
+            scrollText: '', // Text for element, can contain HTML
+            scrollTitle: false, // Set a custom <a> title if required.
+            scrollImg: false, // Set true to use image
+            activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+            zIndex: 2147483647 // Z-Index for the overlay
+      });
+    });
+
+</script>	        
+
+</body>
+</html>

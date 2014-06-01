@@ -1,0 +1,243 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>LESS学习 &#8211; CNHALO</title>
+<meta name="description" content="要写点什么.">
+<meta name="keywords" content="less, css, it">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="LESS学习">
+<meta property="og:description" content="要写点什么.">
+<meta property="og:url" content="/learn-less/">
+<meta property="og:site_name" content="CNHALO">
+
+
+
+
+
+<link rel="canonical" href="/learn-less/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="CNHALO Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.min.css">
+<!-- Webfonts -->
+
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">菜单</button>
+	<ul class="dl-menu">
+		<li><a href="/">首页</a></li>
+		<li>
+			<a href="#">关于</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="/images/avatar.jpg" alt="HENRY_HUANGS photo" class="author-photo">
+					<h4>HENRY_HUANGS</h4>
+					<p>争四狂魔的追随者 / <br/>程序猿 / <br/>一点寒芒先到，随后枪出如龙</p>
+				</li>
+				<li><a href="/about/">更多....</a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li>
+					<a href="http://www.weibo.com/626242034"><i class="icon-tumblr"></i> Tumblr</a>
+				</li>
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">文章</a>
+			<ul class="dl-submenu">
+				<li><a href="/posts/">所有文章</a></li>
+				<li><a href="/tags/">所有标签</a></li>
+			</ul>
+		</li>
+		<li><a href="http://onecircle.lofter.com/">轻博客</a></li><li><a href="http://gallery.cnhalo.com">Gallery</a></li>
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="/learn-less/" rel="bookmark" title="LESS学习">LESS学习</a></h1>
+        
+        <h2>August 10, 2013</h2>
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>今天下午没事学了一下less，发现用来写样式表真是方便。</p>
+
+<h3 id="less">1. 什么是LESS</h3>
+<p>LESS是一种动态样式语言，属于CSS预处理语言的一种，它使用类似CSS的语法，为CSS的赋予了动态语言的特性，如变量、继承、运算、函数等，更方便CSS的编写和维护。</p>
+
+<p>LESS可以在多种语言、环境中使用，包括浏览器端、桌面客户端、服务端。</p>
+
+<p>LESS的很多特性，其实对于一个有编程思想的人来看其实很简单，在这就不列举了。</p>
+
+<p>详细的LESS学习传送门：<a href="http://www.lesscss.net/article/document.html">http://www.lesscss.net/article/document.html</a></p>
+
+<h3 id="javascript">2. JavaScript求值</h3>
+<p>最让我觉得兴奋的是，LESS可以支持JavaScript求值，想想以后写一个页面，需要由浏览器的大小来决定某个元素的大小，那是相当方便呀：</p>
+
+<p>```css
+@divColor: black;
+@windowWidth: <code>document.body.clientWidth</code>;
+@windowHeight: <code>document.body.clientHeight</code>;</p>
+
+<p>.block {
+    width: @windowWidth;
+    height: @windowHeight;
+    border: 1px @divColor solid;
+}
+```</p>
+
+<h3 id="section">3. 注意事项</h3>
+<p>需要注意的是，less.js的引入需要放到文档的最后，否则会报错:SyntaxError: JavaScript evaluation error: ‘TypeError: document.body is null’</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="/tags/#less" title="Pages tagged less" class="tag">less</a><a href="/tags/#css" title="Pages tagged css" class="tag">css</a><a href="/tags/#it" title="Pages tagged it" class="tag">it</a></span>
+        <span><a href="/learn-less/" rel="bookmark" title="LESS学习">LESS学习</a> was published on <span class="entry-date date published updated"><time datetime="2013-08-10T14:59:00+08:00">August 10, 2013</time></span></span>
+        
+        <span class="author vcard"><span class="fn"><a href="/about/" title="About HENRY_HUANGS">HENRY_HUANGS</a></span></span>
+        
+      </footer>
+    </div><!-- /.entry-content -->
+    
+    <div class="read-more">
+      <!--
+      
+        <div class="read-more-header">
+          <a href="/java-date-am-or-pm/" class="read-more-btn">Read More</a>
+        </div>
+        <div class="read-more-content">
+          <h3><a href="/running/" title="跑步">跑步</a></h3>
+          <p>俗话说得好：五月不减肥，六月徒伤悲，七月徒伤悲，八月徒伤悲。。。在今年过完春节，就给自己下了今年的一个目标，减肥，减到正常体重。说到减肥，或许对于很多人来说首先想到的就是从吃下手，少吃，甚至不吃，对此我表示很荒谬，从吃这里下手，是可以达到目的，但是反弹很容易的，稍微不注...&hellip; <a href="/running/">Continue reading</a></p>
+        </div>
+      
+    -->
+      <div class="read-more-list">
+        
+          <div class="list-item">
+            <h4><a href="/shortcuts-of-eclipse-on-mac/" title="Mac下Eclipse快捷键">Mac下Eclipse快捷键</a></h4>
+            <span>Published on April 05, 2014</span>
+          </div><!-- /.list-item -->
+        
+          <div class="list-item">
+            <h4><a href="/java-object-equals/" title="JAVA对象equals的技巧">JAVA对象equals的技巧</a></h4>
+            <span>Published on December 06, 2013</span>
+          </div><!-- /.list-item -->
+        
+      </div><!-- /.read-more-list -->
+      
+
+      <!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"henryhuang"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->
+
+    </div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2014 HENRY_HUANGS. 沪ICP备12046790号-1
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+
+<link href="/assets/stylesheets/themes/image.css" rel="stylesheet" type="text/css">
+
+
+<script src="/assets/js/plugins/jquery.scrollUp.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+      $.scrollUp({
+            scrollName: 'scrollUp', // Element ID
+            scrollDistance: 300, // Distance from top/bottom before showing element (px)
+            scrollFrom: 'top', // 'top' or 'bottom'
+            scrollSpeed: 300, // Speed back to top (ms)
+            easingType: 'linear', // Scroll to top easing (see http://easings.net/)
+            animation: 'slide', // Fade, slide, none
+            animationSpeed: 200, // Animation in speed (ms)
+            scrollTrigger: false, // Set a custom triggering element. Can be an HTML string or jQuery object
+            //scrollTarget: false, // Set a custom target element for scrolling to the top
+            scrollText: '', // Text for element, can contain HTML
+            scrollTitle: false, // Set a custom <a> title if required.
+            scrollImg: false, // Set true to use image
+            activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+            zIndex: 2147483647 // Z-Index for the overlay
+      });
+    });
+
+</script>	        
+
+</body>
+</html>
